@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67f34ad9-a07e-4e7c-b2c3-795c9bb6e8b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tesssst.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1rDSVwaf4skFz15pEG60l0yqwac" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,6 +31,61 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/UnitTests/CircleArea" />
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for test_reverting_and_complementing_sequence.test_rc_converting_skills">
+    <configuration name="Unittests for test_data_handling.test_data_handling" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ReverComp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_data_handling.test_data_handling&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_reverting_and_complementing_sequence.test_rc_converting_skills" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ReverComp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_reverting_and_complementing_sequence.test_rc_converting_skills&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_reverting_and_complementing_sequence.test_rc_converting_skills.test_if_G_complementation_raise_value_error_by_passing_down_wrong_nucleotide" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ReverComp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_reverting_and_complementing_sequence.test_rc_converting_skills.test_if_G_complementation_raise_value_error_by_passing_down_wrong_nucleotide&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for test_reverting_and_complementing_sequence.test_rc_converting_skills" />
+        <item itemvalue="Python tests.Unittests for test_reverting_and_complementing_sequence.test_rc_converting_skills.test_if_G_complementation_raise_value_error_by_passing_down_wrong_nucleotide" />
+        <item itemvalue="Python tests.Unittests for test_data_handling.test_data_handling" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -42,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618509194890</updated>
       <workItem from="1618509197303" duration="631000" />
-      <workItem from="1618510789841" duration="670000" />
+      <workItem from="1618510789841" duration="5135000" />
     </task>
     <servers />
   </component>
@@ -50,9 +106,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="422" y="96" key="FileChooserDialogImpl" timestamp="1618512682715">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="422" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1618512682715" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1618516119988">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1618516119988" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1618516119988">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1618516119988" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1618516119988">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1618516119988" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1618516119988">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1618516119988" />
     <state x="338" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1618510790221">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="338" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1618510790221" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ReverComp$Unittests_for_test_data_handling_test_data_handling.coverage" NAME="Unittests for test_data_handling.test_data_handling Coverage Results" MODIFIED="1618513105174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/ReverComp$Unittests_for_test_reverting_and_complementing_sequence_test_rc_converting_skills.coverage" NAME="Unittests for test_reverting_and_complementing_sequence.test_rc_converting_skills Coverage Results" MODIFIED="1618516119976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/ReverComp$Unittests_for_test_reverting_and_complementing_sequence_test_rc_converting_skills_test_if_G_complementation_raise_value_error_by_passing_down_wrong_nucleotide.coverage" NAME="Unittests for test_reverting_and_complementing_sequence.test_rc_converting_skills.test_if_G_complementation_raise_value_error_by_passing_down_wrong_nucleotide Coverage Results" MODIFIED="1618516104157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>
