@@ -2,73 +2,81 @@ import unittest
 from make_reverse_complement_2 import ReverComp
 
 class test_rc_converting_skills(unittest.TestCase):
-    def setUp(self) -> None:
-        self.rever_comp = ReverComp()
+
 
     def test_if_seq_gets_reversed(self):
         # Assume
         sequence = 'ATGCGCTAC'
+        rever_comp = ReverComp()
         # Action
-        reversed_seq = self.rever_comp.reverse_seq(seq=sequence)
+        reversed_seq = rever_comp.reverse_seq(seq=sequence)
         # Assert
         self.assertEqual(reversed_seq, 'CATCGCGTA')
 
-    def test_if_G_complementation_works_with_arg(self):
+    def test_if_sequences_rc_lst_gets_complementary_of_G_appended(self):
         # Assume
         nucleotide = 'G'
+        rever_comp = ReverComp()
         # Action
-        complementary_nucleotide = self.rever_comp.make_G_complementary(nuc=nucleotide)
+        rever_comp.append_complementary_of_G_to_seq_rc_lst(nuc=nucleotide)
+        sequences_rc_lst = rever_comp.lst_of_sequences_rc
         # Assert
-        self.assertEqual(complementary_nucleotide, 'C')
+        self.assertEqual(sequences_rc_lst, ['C'])
 
-    def test_if_G_complementation_raise_value_error_by_passing_down_wrong_nucleotide(self):
-        # Assume
-        wrong_nucleotide = 'A'
-        # Action & Assert
-        with self.assertRaises(ValueError):
-            self.rever_comp.make_G_complementary(nuc=wrong_nucleotide)
-
-    def test_if_C_complementation_works_with_arg(self):
+    def test_if_sequences_rc_lst_gets_complementary_of_C_appended(self):
         # Assume
         nucleotide = 'C'
+        rever_comp = ReverComp()
         # Action
-        complementary_nucleotide = self.rever_comp.make_C_complementary(nuc=nucleotide)
+        rever_comp.append_complementary_of_C_to_seq_rc_lst(nuc=nucleotide)
+        sequences_rc_lst = rever_comp.lst_of_sequences_rc
         # Assert
-        self.assertEqual(complementary_nucleotide, 'G')
+        self.assertEqual(sequences_rc_lst, ['G'])
 
-    def test_if_C_complementation_raise_value_error_by_passing_down_wrong_nucleotide(self):
-        # Assume
-        wrong_nucleotide = 'A'
-        # Action & Assert
-        with self.assertRaises(ValueError):
-            self.rever_comp.make_C_complementary(nuc=wrong_nucleotide)
-
-    def test_if_A_complementation_works_with_arg(self):
+    def test_if_sequences_rc_lst_gets_complementary_of_A_appended(self):
         # Assume
         nucleotide = 'A'
+        rever_comp = ReverComp()
         # Action
-        complementary_nucleotide = self.rever_comp.make_A_complementary(nuc=nucleotide)
+        rever_comp.append_complementary_of_A_to_seq_rc_lst(nuc=nucleotide)
+        sequences_rc_lst = rever_comp.lst_of_sequences_rc
         # Assert
-        self.assertEqual(complementary_nucleotide, 'T')
+        self.assertEqual(sequences_rc_lst, ['T'])
 
-    def test_if_A_complementation_raise_value_error_by_passing_down_wrong_nucleotide(self):
-        # Assume
-        wrong_nucleotide = 'G'
-        # Action & Assert
-        with self.assertRaises(ValueError):
-            self.rever_comp.make_A_complementary(nuc=wrong_nucleotide)
-
-    def test_if_T_complementation_works_with_arg(self):
+    def test_if_sequences_rc_lst_gets_complementary_of_T_appended(self):
         # Assume
         nucleotide = 'T'
+        rever_comp = ReverComp()
         # Action
-        complementary_nucleotide = self.rever_comp.make_T_complementary(nuc=nucleotide)
+        rever_comp.append_complementary_of_T_to_seq_rc_lst(nuc=nucleotide)
+        sequences_rc_lst = rever_comp.lst_of_sequences_rc
         # Assert
-        self.assertEqual(complementary_nucleotide, 'A')
+        self.assertEqual(sequences_rc_lst, ['A'])
 
-    def test_if_T_complementation_raise_value_error_by_passing_down_wrong_nucleotide(self):
+    def test_if_sequences_rc_lst_is_instanciated_by_calling_ReverComp(self):
         # Assume
-        wrong_nucleotide = 'G'
-        # Action & Assert
-        with self.assertRaises(ValueError):
-            self.rever_comp.make_T_complementary(nuc=wrong_nucleotide)
+        rever_comp = ReverComp()
+        lst_of_sequences_rc = rever_comp.lst_of_sequences_rc
+        # Action
+        length_of_seq_rc_lst = len(lst_of_sequences_rc)
+        # Assert
+        self.assertEqual(length_of_seq_rc_lst, 0)
+
+    def test_if_rc_sequence_get_joined_correct_together(self):
+        # Assume
+        rever_comp = ReverComp()
+        DNA_sequence = ['A', 'T', 'G', 'G', 'C']
+        # Action
+        DNA_sequence_joined = rever_comp.join_lst_seq_rc(seq_as_lst=DNA_sequence)
+        # Assert
+        self.assertEqual(DNA_sequence_joined, 'ATGGC')
+
+    def test_rc_functionality(self):
+        # Assume
+        rever_comp = ReverComp()
+        seq_before_rc_conversion = 'ATGGTCAG'
+        # Action
+        seq_after_rc_conversion = rever_comp.make_rc_conversion(seq_to_convert=seq_before_rc_conversion)
+        # Assert
+        self.assertEqual(seq_after_rc_conversion, 'CTGACCAT')
+
